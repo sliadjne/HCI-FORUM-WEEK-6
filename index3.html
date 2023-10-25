@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mbanking app design - HCI - sesilia nadine - L1BC - LOG IN PAGE</title>
+    <link rel="stylesheet" href="index3.css">
+
+    <style>
+    body {font-family: 'Times New Roman', Times, serif;}
+    form {border: 3px solid #f1d0fd;}
+
+    input[type=text], input[type=psw] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #edd5f7;
+    box-sizing: border-box;
+    }
+
+    button {
+    background-color: #f3adff;
+    color: rgb(31, 10, 33);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    button:hover {
+    opacity: 0.8;
+    }
+
+    .login form {
+    padding: 16px;
+    }
+
+    span.password {
+    float: right;
+    padding-top: 16px;
+    }
+
+
+    @media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }}
+
+    </style>
 </head>
 <body>
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index3.html">LOG IN</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <form>
+            <div class="login form">
+                <label for="Email"><b>Email</b></label>
+                <input type="text" placeholder="Enter your registered email" name="Email" required>
+    
+                <label for="password"><b>Password</b></label>
+                <input type="psw" placeholder="Enter your password" name="password" required>
+    
+                <button type="submit">login</button>
+    
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Remember me
+                </label>
+            </div>
+        </form>
+
     
 </body>
 </html>
