@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("images/background1.jpg");
+    background-position: cen;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 1450px 850px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Transferbtn {
+    background-color: #9ec3d6;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.Transferbtn:hover {
+    opacity:1;
+}
+
+.balancebtn {
+    background-color: #9eadd6;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.balancebtn:hover {
+    opacity:1;
+}
+
+.Qrcodebtn {
+    background-color: #c49ed6;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.Qrcodebtn:hover {
+    opacity:1;
+}
+
+.Topupbtn {
+    background-color: #d69ec9;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.Topupbtn:hover {
+    opacity:1;
+}
+
+
+.logoutbtn {
+    background-color: #d69eab;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 580px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+
+.logoutbtn:hover {
+    opacity:1;
+}
+
